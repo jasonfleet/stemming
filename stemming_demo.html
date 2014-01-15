@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="js/stemming_algorithm.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/stemming_demo.js"></script>
+    </head>
+    <style>
+        #stemming span { display: inline-block; width: 128px; }
+    </style>
+    <body>
+        <h1>Stemming Algorithm Demo</h1>
+        <a href="www.hairydeveloper.co.uk">www.hairydeveloper.co.uk</a>
+        <br />
+        <div id="stemming">
+            <p>
+                Text to apply algorithm to.
+            </p>
+            <textarea id="stem-source"></textarea>
+            <p>
+                After stemming.
+                <button type="button">
+                    Stem
+                </button>
+            </p>
+            <textarea id="stem-result"></textarea>
+        </div>
+    </body>
+</html>
